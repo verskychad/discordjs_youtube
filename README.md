@@ -19,15 +19,8 @@ Witaj, drogi widzu! Tutaj znajdziesz kod źródłowy bota, który jest pisany pr
 
 **Pobierz pliki bota:**
 
-Wybierz wersję, którą chcesz pobrać. Wszystkie wersje znajdziesz w katalogu "BOT"
-
-**Zainstaluj wymagane pakiety**
-
-Te polecenie zainstaluje wszystkie potrzebne zależności bota, które znajdują się w pliku `package.json`
-
-    ```sh
-    npm install
-    ```
+1. Pobierz najnowszą wersję bota z zakładki **RELEASES** po czym wypakuj plik zip do pustego folderu
+2. Uruchom swój edytor kodu i otwórz folder który chcesz edytować
 
 ## Konfiguracja
 
@@ -39,16 +32,24 @@ Edytuj plik `.env` znajdujący się w głównym katalogu projektu i dodaj swój 
 
 ## Uruchamianie
 
+### URUCHAMIANIE STANDARDOWE
+
 Aby uruchomić bota, użyj poniższego polecenia:
 
 ```sh
-node index.js
+node .
 ```
 
 lub:
 
 ```sh
-nodemon index.js
+node index.js
 ```
 
-jeśli chcesz by bot restartował się po każdej zapisanej zmianie w kodzie
+### URUCHAMIANIE ZA POMOCĄ NODEMON
+
+Aby uruchomić bota za pomocą nodemon użyj tego polecenia:
+
+```sh
+nodemon index.js
+```

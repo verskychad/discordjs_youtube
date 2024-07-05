@@ -4,29 +4,22 @@ Witaj, drogi widzu! Tutaj znajdziesz kod źródłowy bota, który jest pisany pr
 
 ## Spis treści
 
-- [Wstęp](#wstęp)
 - [Wymagania](#wymagania)
 - [Instalacja](#instalacja)
 - [Konfiguracja](#konfiguracja)
-- [Użycie](#użycie)
-- [Przykładowy Kod](#przykładowy-kod)
-- [Licencja](#licencja)
-
-## Wstęp
-
-Ten bot został stworzony w oparciu o bibliotekę Discord.js v14. Umożliwia on tworzenie zaawansowanych botów do Discorda z różnorodnymi funkcjonalnościami. Kod jest łatwy do zrozumienia i dostosowania, co czyni go idealnym punktem wyjścia dla nowych projektów.
+- [Uruchamianie](#uruchamianie)
 
 ## Wymagania
 
-- Node.js v16.9.0 lub nowszy
-- npm (Node Package Manager)
+- IDE (np. [Visual Studio Code](https://code.visualstudio.com))
+- Node.js v20.15.0 (LTS) lub nowszy | [POBIERZ](https://nodejs.org)
 - Token bota Discord (możesz uzyskać go z [Discord Developer Portal](https://discord.com/developers/applications))
 
 ## Instalacja
 
 1. **Pobierz pliki bota:**
 
-fjiasfdnigjksdn
+Wybierz wersję, którą chcesz pobrać. Wszystkie wersje znajdziesz w katalogu "BOT"
 
 2. **Zainstaluj wymagane pakiety:**
 
@@ -38,11 +31,11 @@ fjiasfdnigjksdn
 
 Edytuj plik `.env` znajdujący się w głównym katalogu projektu i dodaj swój token bota:
 
-    ```env
+    ```sh
     TOKEN=twoj-token
     ```
 
-## Użycie
+## Uruchamianie
 
 Aby uruchomić bota, użyj poniższego polecenia:
 
@@ -50,7 +43,7 @@ Aby uruchomić bota, użyj poniższego polecenia:
 node index.js
 ```
 
-lub
+lub:
 
 ```sh
 nodemon index.js

@@ -24,11 +24,15 @@ Witaj, drogi widzu! Tutaj znajdziesz kod źródłowy bota, który jest pisany pr
 
 ## Konfiguracja
 
+### Jeśli w katalogu nie ma pliku `.env`, stwórz go.
+
 Edytuj plik `.env` znajdujący się w głównym katalogu projektu i dodaj swój token bota:
 
     ```env
     TOKEN=twoj-token
     ```
+
+Jeśli w katalogu nie ma pliku `.env`, stwórz go.
 
 ## Uruchamianie
 

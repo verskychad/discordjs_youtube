@@ -17,11 +17,13 @@ Witaj, drogi widzu! Tutaj znajdziesz kod źródłowy bota, który jest pisany pr
 
 ## Instalacja
 
-1. **Pobierz pliki bota:**
+**Pobierz pliki bota:**
 
 Wybierz wersję, którą chcesz pobrać. Wszystkie wersje znajdziesz w katalogu "BOT"
 
-2. **Zainstaluj wymagane pakiety:**
+**Zainstaluj wymagane pakiety**
+
+Te polecenie zainstaluje wszystkie potrzebne zależności bota, które znajdują się w pliku `package.json`
 
     ```sh
     npm install
@@ -31,7 +33,7 @@ Wybierz wersję, którą chcesz pobrać. Wszystkie wersje znajdziesz w katalogu 
 
 Edytuj plik `.env` znajdujący się w głównym katalogu projektu i dodaj swój token bota:
 
-    ```sh
+    ```env
     TOKEN=twoj-token
     ```
 
